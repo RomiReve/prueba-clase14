@@ -1,0 +1,46 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #7aa999;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#7aa999;
+    border:2px solid #e9ecef;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#e9ecef;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin: 20px;
+}
+.bg-form {
+    background-image:url(/proyecto_romina_revello/multimedia/imagenes_ejercicios/yoga_bannerr.png);
+    height: 300px;
+    background-position: center;
+}

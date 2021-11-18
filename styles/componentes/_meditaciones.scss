@@ -1,0 +1,100 @@
+#intro-meditaciones {
+    height:100 px;
+    background-color: rgb(235, 235, 208);
+    background-image: url(/proyecto_romina_revello/multimedia/imagenes_meditaciones/bannerpan02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: top 10px;
+    height: 150px;
+
+    .intro-meditaciones__titulo-meditaciones {
+        color: #a9554f;
+        font-size: 48px;
+        text-align: center;
+        margin-right: 200px;
+        /**&:hover {
+            transform: scale(0.5);
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+        }**/
+    .intro-meditaciones__texto {
+        color: black;
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
+        background-color: #f1f1f1;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-weight: bold;  
+        }
+
+    }
+}
+
+
+.section-meditaciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 30px;
+    .bloque1_meditaciones {
+        width: 400px;
+        height: 500px;
+        justify-content: left;
+        background-color:rgb(235, 235, 208);
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_meditaciones/gif_meditaciones.gif);
+        margin: auto;      
+        background-size: cover;
+        background-position:bottom;
+        font-size: 10px;
+        color: ivory;
+
+    }
+    .bloque2_meditaciones {
+        width: 800px;
+        height: 500px;
+        justify-content: right; 
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_meditaciones/medita_1.jpg);
+        margin: auto;
+
+    }
+}
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 30px; 
+    .bloque1_meditaciones {
+        width: 400px;
+        height: 500px;
+        justify-content: left;
+        background-color:#f1f1f1; 
+        margin: auto;  
+    }
+    .bloque2_meditaciones {
+        width: 800px;
+        height: 500px;
+        justify-content: right;
+        background-color:#f1f1f1;  
+        margin:auto;
+        background-size:100%;
+        font-size: 10px;
+        color: ivory;
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_meditaciones/medita_2.jpg);
+    }
+}
+
+.footer {
+    margin-top: 50px;
+}

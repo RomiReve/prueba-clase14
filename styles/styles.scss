@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    
+    
+}
+/*scroll más suave en toda la home*/
+html {  
+    scroll-behavior: smooth;    
+}
+/*estilos navbar*/
+.navbar {
+    height: 150px;
+    padding-top: 0;
+}
+
+/*animación h1 index*/
+.titulo-romi:hover {
+    transform: scaleY(1.5);
+}
+
+/*import componente footer*/
+@import"./componentes/footer";
+/*import componente formulario*/
+@import "./componentes/formulario";
+/*import sección alimentación*/
+@import "./componentes/alimentacion";
+/*import sección meditaciones*/
+@import "./componentes/meditaciones";
+/*import sección ejercicios*/
+@import "./componentes/ejercicios";

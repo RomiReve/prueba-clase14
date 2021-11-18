@@ -1,0 +1,126 @@
+/*sección alimentación*/
+#intro-alimentos {
+    height:100 px;
+    background-color: rgb(235, 235, 208);
+    background-image: url(/proyecto_romina_revello/multimedia/imagenes_alimentacion/banner_header.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: top 10px;
+    height: 200px;
+
+}
+
+#intro-alimentos {
+    __titulo-alimentos {
+        color: #fff;
+        font-size: 48px;
+        text-align: left;
+        margin-right: 200px; 
+        padding:30px;
+        font-weight: bold;
+
+    }
+}
+
+#itro {
+    .intro__texto {
+        color:black;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+        background-color: #f1f1f1;
+        margin-bottom: 15px;
+        padding: 10px;
+
+    }
+}
+
+.section-alimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 30px;
+
+    .bloque1-alimentos {
+        width: 400px;
+        height: 400px;
+        justify-content: left;
+        background-color:rgb(235, 235, 208);
+        border-radius: 40px;
+        margin: auto;    
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_alimentacion/frutos_secos.jpg);
+
+        .bloque2-alimentos {
+
+            width: 800px;
+            height: 400px;
+            justify-content: right;
+            background-color: #98e098;
+            margin: auto;
+            font-size: 14px;
+
+            .video {
+                width: 600px;
+                height: 400px;
+                border-radius: 40px;
+
+            .beneficios {
+                text-align: center;
+                padding: 20px 20px;
+                align-self: center;
+
+            .texto {
+                padding: 20px 20px;
+                align-self: center;
+                padding: 20px 20px;
+                height: 400px;
+                width: 400px;
+
+            }
+            }
+
+            
+             
+
+                }
+            }
+
+        }
+    }
+.section2-alimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 10px; 
+
+    .bloque3 {
+        width: 400px;
+        height: 400px;
+        justify-content: left;
+        background-color:rgb(235, 235, 208);
+        border-radius: 40px;
+        margin: auto;
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_alimentacion/matcha.jpg);
+        background-size: cover;
+        background-position:center;
+        .bloque4 {
+            width: 800px;
+            height: 400px;
+            justify-content: right;
+            background-color: #8bc34a8f; 
+            border-radius: 40px;
+            margin:auto;
+
+        }
+    }
+}
+

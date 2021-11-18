@@ -1,0 +1,134 @@
+#intro-ejercicios {
+    height:100 px;
+    background-image: url(/proyecto_romina_revello/multimedia/imagenes_ejercicios/flor.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: top 10px;
+    height: 250px; 
+
+    .intro__texto {
+        font-style: normal;
+        font-size: 12px;
+        text-align: center;
+        background-color: black;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-weight: bold;  
+    }
+}
+h1 {
+    color: blanchedalmond;
+    font-size: 12px; 
+
+}
+h2 {
+    background-color:#a6acaf;
+    font-size: 12px;
+
+}
+.section-ejercicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 30px;  
+
+    .bloque1-ejercicios {
+        width: 600px;
+        height: 400px;
+        justify-content: left;
+        background-color:rgb(235, 235, 208);
+        background-image: url(/proyecto_romina_revello/multimedia/imagenes_ejercicios/yoga_2.jpg);
+        border-radius: 10px;
+        margin: auto;    
+        background-size: cover;
+        background-position:center;
+        font-size: 10px;
+        color: ivory;    
+
+        h1 {
+            background-color:#d1bbcb;
+            text-align: center;
+            height: 60px;
+            padding: 10px;  
+
+        }
+    }
+    
+.bloque2-ejercicios {
+    width: 600px;
+    height: 400px;
+    justify-content: right;
+    background-color: #a6acaf;  
+    background-image: url(/proyecto_romina_revello/multimedia/imagenes_ejercicios/yoga_1.jpg);
+    border-radius: 10px;
+    margin: auto;
+    background-size: cover;
+    background-position:center;
+    color: black;  
+    h1 {
+        background-color:#a6acaf;
+        text-align: center;
+        height: 60px;
+        padding: 10px; 
+
+    }
+    h2 {
+        background-color:#a6acaf;
+        text-align: center;
+        height: 30px;
+        padding: 5px;
+
+    }
+
+}
+
+}
+
+.section2-ejercicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px 40px;
+    width: 100%;
+    margin: auto;
+    background-color:#f1f1f1;
+    padding: 30px 20px 10px 10px;
+    border-radius: 10px;
+    .bloque3 {
+        width: 600px;
+        height: 400px;
+        justify-content: left;
+        background-color:#d1bbcb;
+        border-radius: 10px;
+        margin: auto;
+        color: ivory;    
+        h3 {
+            text-align: justify;
+            padding: 50px 20px;  
+            font-size: 18px;
+
+        }
+
+    }
+    .bloque4 {
+        width: 600px;
+        height: 400px;
+        justify-content: right;
+        background-color: #d1bbcb;  
+        border-radius: 10px;
+        margin:auto;
+        h3 {
+            text-align: justify;
+            padding: 100px 20px;
+            color: ivory; 
+            font-size: 18px; 
+
+        }
+
+    }
+}
